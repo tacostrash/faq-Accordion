@@ -1,0 +1,14 @@
+body, html{
+  background-color: hsl(275, 100%, 97%);
+  height: 100%;
+  margin: 0;
+}
+.top-image {
+    /* This is the image */
+  background-image: url(assets/images/background-pattern-desktop.svg);
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
