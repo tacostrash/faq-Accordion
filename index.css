@@ -30,8 +30,28 @@ html {
   background-color: white;
   border-radius: 15px;
   position: relative;
-  top:95px;
+  top: 95px;
 }
+
+.faq-image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 9%;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+span {
+  font-size: xx-large;
+  font-weight: bolder;
+  display: inline-block;
+  margin-left: 5%;
+}
+
 .card p {
   color: black;
   margin: auto;
