@@ -1,14 +1,39 @@
-body, html{
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body,
+html {
   background-color: hsl(275, 100%, 97%);
   height: 100%;
   margin: 0;
+  margin-top: -9px;
 }
 .top-image {
-    /* This is the image */
+  /* This is the image */
   background-image: url(assets/images/background-pattern-desktop.svg);
   height: 40%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
 
+.card {
+  box-shadow: 1.5px 1.5px 1.5px 1.5px;
+  max-width: 350px;
+  max-height: fit-content;
+  margin: auto;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+  top:95px;
+}
+.card p {
+  color: black;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
 }
