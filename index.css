@@ -6,6 +6,13 @@
   color: hsl(228, 45%, 44%);
 }
 
+button {
+border: none;
+cursor: pointer;
+appearance: none;
+background-color: inherit;
+}
+
 body,
 html {
   background-color: hsl(275, 100%, 97%);
@@ -21,7 +28,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* This is for the card itself */
 .card {
   box-shadow: 1.5px 1.5px 1.5px 1.5px;
   max-width: 350px;
@@ -33,27 +40,53 @@ html {
   top: 95px;
 }
 
+/* This is the star image */
 .faq-image {
   display: inline-block;
   vertical-align: middle;
   width: 9%;
 }
 
-.header{
+/* Div which includes the imahe and text */
+.header {
   display: flex;
   align-items: center;
   padding: 20px;
 }
 
-span {
+/* the text for "FAQ" */
+.faq-text {
   font-size: xx-large;
   font-weight: bolder;
   display: inline-block;
   margin-left: 5%;
 }
 
+/* The text of the whole card  */
 .card p {
   color: black;
   margin: auto;
   padding: 10px 10px 10px 10px;
 }
+
+/* First dropdown */
+.first-dropdown{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+/* The first questions asked */
+.first-dropdown-text {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 12px;
+}
+/* The plus and minus image for the first question */
+.first-dropdown-image {
+  display: inline-block;
+}
+ #first-dropdown-more{
+  display: none;
+ }
+

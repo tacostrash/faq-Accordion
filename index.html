@@ -21,13 +21,23 @@
       <div class="card">
         <div class="header">
           <img class="faq-image" src="assets/images/icon-star.svg" alt="purple star" />
-          <span>FAQs</span>
+          <span class="faq-text">FAQs</span>
         </div>
         <p>
-          <strong>What is Frontend Mentor, and how will it help me?</strong> Frontend Mentor offers realistic coding challenges to help developers improve their
-          frontend coding skills with projects in HTML, CSS, and JavaScript.
-          It's suitable for all levels and ideal for portfolio building. Is
-          <!-- Frontend Mentor free? Yes, Frontend Mentor offers both free and
+          <div class="first-dropdown">
+            <span class="first-dropdown-text">What is Frontend Mentor, and how will it help me? </span> 
+            <div class="image-icon">
+              <button onclick="dropdown()" id="img-btn">
+              <img class="first-dropdown-image" src="assets/images/icon-plus.svg" alt="plus" id="plus">  
+            </button>
+            <span id="first-dropdown-more">
+              Frontend Mentor offers realistic coding challenges to help developers improve their
+              frontend coding skills with projects in HTML, CSS, and JavaScript.
+              It's suitable for all levels and ideal for portfolio building. 
+            </span>
+            </div>
+          </div>
+          <!-- Is Frontend Mentor free? Yes, Frontend Mentor offers both free and
           premium coding challenges, with the free option providing access to a
           range of projects suitable for all skill levels. Can I use Frontend
           Mentor projects in my portfolio? Yes, you can use projects completed
@@ -47,5 +57,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Carlos Marin</a>.
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
