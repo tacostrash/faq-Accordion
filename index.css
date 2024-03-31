@@ -6,19 +6,11 @@
   color: hsl(228, 45%, 44%);
 }
 
-button {
-border: none;
-cursor: pointer;
-appearance: none;
-background-color: inherit;
-}
-
 body,
 html {
   background-color: hsl(275, 100%, 97%);
   height: 100%;
   margin: 0;
-  margin-top: -9px;
 }
 .top-image {
   /* This is the image */
@@ -70,24 +62,19 @@ html {
   padding: 10px 10px 10px 10px;
 }
 
-/* First dropdown */
-.first-dropdown{
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
+.accordion {
+background-color:inherit;
+color: #444;
+border: none;
+cursor: pointer;
+outline: none;
+font-size: 14px;
+transition: 0.4s;
 }
 
-/* The first questions asked */
-.first-dropdown-text {
-  font-weight: bold;
-  display: inline-block;
-  font-size: 12px;
-}
-/* The plus and minus image for the first question */
-.first-dropdown-image {
-  display: inline-block;
-}
- #first-dropdown-more{
+.panel {
+  padding: auto;
   display: none;
- }
-
+  overflow: hidden;
+  background-color: inherit
+}
